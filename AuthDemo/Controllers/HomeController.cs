@@ -12,6 +12,8 @@ namespace AuthDemo.Controllers
     {
         public IActionResult Index()
         {
+
+            ViewData["Message"] = "Stinky winky filthy pinky";
             return View();
         }
 
